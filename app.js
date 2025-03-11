@@ -14,8 +14,7 @@ function agregarAmigo(){
         document.getElementById("listaAmigos").appendChild(listaNombre);
 
         document.getElementById("amigo").value = ""
-    
-
+        
     }else{
         alert('Por favor, inserte un nombre');
     }
